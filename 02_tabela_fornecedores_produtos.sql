@@ -9,7 +9,7 @@ create table produtos(
 id_p int not null auto_increment primary key,
 codigo_barras varchar (20) not null unique,
 nome varchar (100) not null,
-preço decimal (10,2) not null,
+preco decimal (10,2) not null,
 estoque int not null check (estoque >=0),
 id_ca int,
 id_fo int,
