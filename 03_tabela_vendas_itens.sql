@@ -1,6 +1,7 @@
 create table vendas(
 id_vendas int not null auto_increment primary key,
-data_venda datetime not null
+data_venda datetime not null,
+preco_total decimal (10,2) not null
 )engine = innodb default charset = utf8mb4;
 
 create table itens_vendas(
