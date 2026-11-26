@@ -8,7 +8,7 @@ create table itens_vendas(
 id_itens int not null auto_increment primary key,
 id_vendas int not null,
 id_produtos int not null,
-quantidade int not null check(quantidade >0),
+quantidade decimal (10,2) not null check(quantidade >0),
 preco_unitario decimal(10,2) not null check(preco_unitario >=0),
 foreign key (id_vendas) references vendas (id_vendas),
 foreign key (id_produtos) references produtos (id_produtos)
