@@ -12,3 +12,12 @@ values ('7890000000028', 'Hambúrguer congelado - 4 unidades', 19.90, 57, 6, 6),
 ('7890000000031', 'Nuggets de frango 300g', 12.90, 80, 6, 6),
 ('7890000000032', 'Pizza congelada 460g', 19.90, 73, 6, 6);
 
+insert into produtos (codigo_barras, nome, preco, estoque, id_categorias, id_fornecedores)
+values('7890000000033', 'Picanha Kg', 69.90, 20, 7, 7),
+('7890000000034', 'Acém Kg', 34.90, 17, 7, 7),
+('7890000000035', 'Lombo suíno Kg', 26.90, 28, 7, 7),
+('7890000000036', 'Bisteca suína Kg', 23.90, 35, 7, 7),
+('7890000000037', 'Peito de frango Kg', 19.90, 40, 7, 7),
+('7890000000038', 'Coxa de frango Kg', 12.90, 38, 7, 7);
+
+
