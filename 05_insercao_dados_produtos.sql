@@ -22,7 +22,6 @@ values('7890000000013', 'Detergente líquido 500ml', 2.80, 57, 3, 3),
 ('7890000000016', 'Desinfetante 1L', 5.00, 18, 3, 3),
 ('7890000000017', 'Sabão em pó 400g', 6.50, 27, 3, 3);
 
-
 insert into produtos (codigo_barras, nome, preco, estoque, id_categorias, id_fornecedores)
 values ('7890000000018', 'Sabonete em barra 90g', 3.20, 73, 4, 4),
 ('7890000000019', 'Shampoo 325ml', 12.00, 64, 4, 4),
